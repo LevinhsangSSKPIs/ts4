@@ -1,0 +1,328 @@
+﻿@charset "utf-8";
+
+
+/* 下層共通指定
+----------------------------------------------- */
+div#under02column {
+    width: 610px;
+    margin: 15px auto 0 auto;
+}
+
+div#one_maincolumn div#under02column {
+    width: 760px;
+    margin: 15px auto 0 auto;
+}
+
+div#under02column h2.title{
+    width: 610px;
+    margin: 0 0 15px 0;
+}
+
+div#under02column table {
+    width: 710px;
+}
+
+/* カートの中
+----------------------------------------------- */
+div#under02column_cart {
+
+}
+
+div#under02column_cartbg {
+    background-color: #f3f1f1;
+}
+
+div#under02column_cart .totalmoneyarea {
+    width: 700px;
+    margin: 15px auto 0 auto;
+    padding: 10px 5px;
+    border: 1px solid #93c830;
+    text-align: center;
+}
+
+
+div#undercolumn_aboutus td {
+    border: 1px solid #93c830;
+    color: #74483e;
+}
+
+div#under02column_cart th {
+    text-align: center;
+    border: 1px solid #93c830;
+    background: #649902;
+    color: #ffffff;
+}
+
+
+div#under02column table th.resulttd {
+    text-align: right;
+}
+
+div#under02column td#quantity {
+   text-align: center;
+   width: 70px;
+}
+
+div#under02column ul#quantity_level li {
+    display: inline;
+    padding: 3px;
+}
+
+div#under02column .empty {
+    text-align: center;
+}
+
+/* お客様情報入力
+----------------------------------------------- */
+div#under02column_customer {
+
+}
+
+div#under02column_customer h2 {
+    width: 100%;
+    margin: 0 0 15px 0;
+    background: url("../img/shopping/info_titlebg.gif") repeat-x;
+}
+
+.flowarea {
+    margin: 0 0 10px 85px;
+    background-color: #f3f1f1;
+    text-align: center;
+    width: 580px;
+    height: 27px;
+}
+
+div#under02column_customer th em {
+    color: #000;
+    font-weight: bold;
+}
+
+div#under02column_customer .box120 {
+    width: 120px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#under02column_customer .box60 {
+    width: 60px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#under02column_customer .box380 {
+    width: 380px;
+    margin: 5px 0 0 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#under02column_customer .box320 {
+    width: 320px;
+    margin: 5px 0 0 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#under02column_customer .zipimg img {
+    margin: 5px 0 0 0;
+}
+
+
+/* お届け先指定
+----------------------------------------------- */
+div#under02column_shopping table th {
+    text-align: center;
+}
+
+.addbtn {
+    margin: 10px 0 0 0;
+}
+
+
+/* お支払い方法・お届け時間等の指定
+----------------------------------------------- */
+under02column_shopping {
+    width: 640px;
+}
+
+div#under02column_shopping .payarea {
+    width: 600px;
+    margin: 0 auto;
+}
+
+div#under02column_shopping .subtitle {
+    clear: both;
+    width: 100%;
+    background: url("../img/shopping/subtitlebg.gif") repeat-x;
+    padding: 0;
+}
+
+div#under02columnbg {
+}
+
+div#under02column_shopping .payarea02 {
+    width: 600px;
+    margin: 40px auto 0 auto;
+}
+
+div#under02column_shopping .payarea02 div {
+    margin: 10px 0 0 0;
+}
+
+div#under02column_shopping .payarea02 em {
+    font-weight: bold;
+    color: #000;
+}
+
+div#under02column_shopping .payarea table {
+    width: 580px;
+}
+
+div#under02column_shopping .payarea table th {
+    text-align: center;
+}
+
+div#under02column_shopping .payarea02 .area660 {
+    width: 590px;
+    height: 150px;
+    margin: 5px 0 0 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#under02column_shopping .pointarea {
+    width: 590px;
+    margin: 40px auto 0 auto;
+}
+
+div#under02column_shopping .pointarea div {
+    border: 2px solid #cccccc;
+    padding: 5px;
+    text-align: center;
+}
+
+div#under02column_shopping .pointarea ul {
+    margin: 10px auto;
+    width: 500px;
+}
+
+div#under02column_shopping .pointarea li {
+    text-align: left;
+    padding: 2px 10px;
+}
+
+div#under02column_shopping .pointarea li.underline {
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 7px;
+}
+
+/* 確認
+----------------------------------------------- */
+
+div#under02column_shopping table.delivname thead th {
+    width: 690px;
+    text-align: left;
+    font-weight: bold;
+}
+
+div#under02column_shopping table.delivname tbody th {
+    text-align: left;
+    width: 155px;
+}
+
+div#under02column_shopping table.delivname td {
+    text-align: left;
+    width: 550px;
+}
+
+/* 決済モジュール(決済情報入力画面)
+----------------------------------------------- */
+div#under02column_shopping .box60 {
+    width: 60px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#under02column_shopping .box120 {
+    width: 120px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+/* ログイン
+----------------------------------------------- */
+div#under02column_login {
+    background-color: #f3f1f1;
+}
+
+div#under02column_login .loginarea {
+    width: 580px;
+    margin: 0 auto 20px auto;
+    padding: 20px 15px;
+}
+
+div#under02column_login .loginarea .inputtext {
+    width: 500px;
+    margin: 15px auto 0 auto;
+}
+
+div#under02column_login .loginarea .inputtext02 {
+    width: 500px;
+    margin: 15px auto 0 auto;
+    font-size: 90%;
+}
+
+div#under02column_login .loginarea .inputbox {
+    width: 460px;
+    margin: 15px auto 0 auto;
+    padding: 15px 20px;
+}
+
+div#under02column_login .loginarea .inputbox .passwd {
+    margin: 15px 0 0 0;
+}
+
+div#under02column_login .loginarea .inputbox .box300 {
+    width: 300px;
+    margin: 5px 0 0 0;
+    padding: 2px;
+    background-color: #ffffff;
+    border: 1px solid #341202;
+}
+
+div#under02column_login .loginarea .inputbox02 {
+    width: 460px;
+    margin: 15px auto 0 auto;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+a:link {
+    color: #5f402c;
+    text-decoration: none;
+}
+a:visited {
+    color: #5f402c;
+    text-decoration: none;
+}
+a:hover {
+    color: #4c7501;
+}
+
+/* エラー
+----------------------------------------------- */
+div#under02column_error {
+
+}
+
+div#under02column_error .messagearea {
+    width: 580px;
+    margin: 15px auto 0 auto;
+    padding: 10px 5px;
+    border: 3px solid #cccccc;
+    text-align: center;
+}
+
+div#under02column_error .messagearea .error {
+    padding: 120px 0;
+}

@@ -1,0 +1,670 @@
+﻿@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table,img, p {
+    border: 0;
+}
+
+body {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    color: #3e3d3d;
+    background: url("../img/main/bodybg.gif");
+    font-size: 72.5%;
+    line-height: 150%;
+    letter-spacing: 1px;
+    background-color: #3d3e40;
+}
+
+#background {
+    background:url("../img/main/bg1.gif") repeat-x top;
+    position: absolute;
+    z-index: -1;
+    height:798px;
+    width:100%;
+    display:table;
+}
+
+li {
+    list-style-type: none;
+}
+
+select {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #818181;
+}
+
+/*PHOTO*/
+.picture {
+    border: 1px solid #ccc;
+}
+/* フロート回り込み解除
+----------------------------------------------- */
+br.clear {
+    clear: both;
+    display: none;
+    font-size: 0px;
+    line-height: 0%;
+    height: 0px;
+}
+/* リンク指定
+----------------------------------------------- */
+a:link {
+    color: #2b9ebc;
+    text-decoration: none;
+}
+a:visited {
+    color: #2b9ebc;
+}
+a:hover {
+    color: #f39a42;
+}
+/* フォント
+----------------------------------------------- */
+h1,h2,h3,h4,h5 {
+    font-size: 100%;
+    line-height: 150%;
+}
+.price { color: #b04d0c; font-weight: bold; }
+.attention { color: #ff0000; }
+.mini { font-size: 90%; }
+em {
+    font-style: normal;
+    color: #ff0000;
+}
+/* テーブル共通指定
+----------------------------------------------- */
+table  {
+    margin: 15px auto 0 auto;
+    border-top: 1px solid #93c830;
+    border-left: 1px solid #93c830;
+    border-collapse: collapse;
+    text-align: left;
+}
+table th {
+    padding: 8px;
+    border-right: 1px solid #93c830;
+    border-bottom: 1px solid #93c830;
+    background-color: #649902;
+    color: #ffffff;
+    font-weight: normal;
+}
+table td {
+    padding: 8px;
+    border-right: 1px solid #93c830;
+    border-bottom: 1px solid #93c830;
+}
+div.tblareabtn {
+    clear: both;
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+.phototd {
+    width: 75px;
+    text-align: center;
+}
+.centertd {
+    text-align: center;
+}
+.pricetd {
+    text-align: right;
+}
+.pricetd em {
+    font-weight: bold;
+}
+div#completetext {
+    width: 470px;
+    margin: 15px auto 0 auto;
+    padding: 15px;
+    border: 3px solid #93c830;
+}
+div#completetext em {
+    font-weight: bold;
+}
+div#completetext p{
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+
+/* ヘッダーロゴ
+------------------------------------------------ */
+div#header {
+    width: 930px;
+    height: 135px;
+    margin: 0 auto;
+    background-position: bottom;
+    padding-left: 10px;
+}
+
+div#header h1 a {
+    float: left;
+    display: block;
+    height: 106px;
+    padding: 54px 0 0 50px;
+    position: absolute;
+    z-index: 2;
+}
+
+div#header h2 {
+    float: left;
+    display: block;
+    padding: 20px 0 0 740px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* ヘッダーナビ
+----------------------------------------------- */
+div#navigation {
+    float: left;
+    display: block;
+    padding: 74px 0 0 400px;
+    height: 37px;
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: -1px;
+}
+
+div#navigation ul{
+    padding-left: 10px;
+}
+
+div#navigation ul li {
+    display: inline;
+}
+div#navigation ul li a {
+    text-decoration: none;
+}
+/* フレーム
+----------------------------------------------- */
+div#container {
+    width: 880px;
+    margin: 0 auto;
+    padding: 0 8px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+#container:after {/* firefox背景色表示用 */
+    content: "";
+    display: block;
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+div#leftcolumn {
+    float: left;
+    width: 240px;
+}
+
+div#leftcolumn h2 {
+    padding: 0;
+}
+
+div#rightcolumn {
+    float: left;
+    width: 240px;
+}
+
+div#rightcolumn h2 {
+    padding: 0;
+}
+
+/* メインコンテンツ
+----------------------------------------------- */
+/* 3カラム設定 */
+div#three_maincolumn {
+    float: left;
+    width: 400px;
+    padding: 15px 0 0 0;
+}
+
+div#three_maincolumn h2 {
+    padding: 15px 0 0 0;
+}
+
+/* 2カラム設定 */
+div#two_maincolumn {
+    float: left;
+    width: 640px;
+    padding: 0 0;
+    margin-top: -8px;
+}
+
+div#two_maincolumn h2 {
+    padding: 15px 0 0 0;
+}
+
+/* 1カラム設定 */
+div#one_maincolumn {
+    padding: 10px 0 10px 0;
+}
+
+/* カゴの中
+----------------------------------------------- */
+div#cartarea {
+    width: 238px;
+    height: 95px;
+    padding: 10px 10px 0 10px;
+    background: url("../img/side/cartin_bg.png") no-repeat;
+}
+
+div#cartarea p {
+    padding: 5px 0 10px 20px;
+}
+
+div#cartarea p.item { 
+    color: #b34c0e;
+    padding: 5px 0 15px 20px;
+
+}
+
+div#cartarea .btn {
+    margin-top: -11px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+/* カテゴリー
+----------------------------------------------- */
+div#categoryarea {
+    width: 238px;
+    height: 100%;
+    padding: 10px;
+    background: url("../img/side/title_catbg.png") repeat-y;
+}
+
+div#categoryarea li {
+    padding: 0 0 0 30px;
+}
+
+div#categoryarea li.level1 {
+    color: #e0f3f7;
+    width: 175px;
+    margin: 0 0 0 -10px;
+}
+div#categoryarea li.level1 li {
+    font-weight: normal;
+}
+div#categoryarea li a {
+    display: block;
+    padding: 3px 0;
+    background: url("../img/side/line.gif") no-repeat bottom left;
+}
+
+
+/* ガイドリンク
+----------------------------------------------- */
+#guidearea {
+    padding: 0 0;
+    line-height: 0;
+}
+
+#guidearea img {
+    magin-top: -3px;
+}
+
+#guidearea h3 {
+    margin-top: -6px;
+}
+/* ログイン
+----------------------------------------------- */
+div#loginarea {
+    width: 238px;
+    height: 152px;
+    background: url("../img/side/login_bg.png") no-repeat;
+    text-align: center;
+}
+
+div#loginarea h2 {
+    font-size: 0; 
+}
+
+div#loginarea p {
+    color: #b34c0e;
+    padding: 8px 0 0 10px;
+    font-family: Arial;
+    text-align: left;
+    margin-left: 17px;
+}
+
+div#loginarea p a{
+    color: #b34c0e;
+    text-decoration: underline;
+}
+
+div#loginarea p a:hover{
+    color: #818181;
+    text-decoration: underline;
+}
+
+div#login img {
+    padding: 0 5px 0 0;
+    vertical-align: bottom;
+}
+
+div#loginarea .btn {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#loginarea .box96 {
+    width: 130px;
+    background-color: #ffffff;
+    border: 1px solid #cddee8;
+}
+
+/* 検索
+----------------------------------------------- */
+div#searcharea {
+    width: 238px;
+    height: 129px;
+    background: url("../img/side/search_bg.png") no-repeat;
+    text-align: left;
+}
+
+div#searcharea p {
+    color: #b34c0e;
+    padding: 3px 0 0 30px;
+}
+
+div#searcharea .btn {
+    text-align: right;
+    margin-top: -13px;
+    padding-right: 10px;
+}
+
+#searcharea .box142 {
+    width: 190px;
+    background-color: #ffffff;
+    border: 1px solid #c9bca9;
+}
+
+/* カレンダー
+----------------------------------------------- */
+#block-calendar {  
+    width: 238px;
+    height: 174px;
+    background: url("../img/side/calendarbg.png") repeat-y;
+}
+
+div#calendar {
+    margin-top: 2px;
+}
+
+div#calendarbg {
+    background: #a2c302;
+    height: 160px;
+    width: 198px;
+    margin-left: 30px;
+}
+
+#block-calendar table {
+    border-collapse: collapse;
+    border-top: 1px solid #649902;
+    border-left: 1px solid #ffffff;
+    margin: 0 auto 0 4px;
+    text-align: center;
+    width: 70px;
+}
+
+#block-calendar th, #block-calendar td {
+    padding: 1px;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    background: #a2c302;
+    color: #ffffff;
+    font-size: 75%;
+}
+
+#block-calendar th {
+    padding: 8px;
+    background: #649902;
+    color: #ffffff;
+}
+
+#block-calendar .off {
+    color: #f06400;
+}
+
+#block-calendar caption {
+    color: #ffffff;
+}
+
+#block-calendar h3 {
+    margin-top: -6px;
+}
+
+/* バナー
+----------------------------------------------- */
+ul#banner {
+    padding: 15px 0 0 0;
+}
+
+#banner li {
+    padding: 0 0 10px 0;
+}
+
+/* テキストフィールド
+----------------------------------------------- */
+input[type='text'] {
+    border: solid 1px #818181;
+    margin: 2px;
+}
+
+/* ボタン
+----------------------------------------------- */
+input[type='image'] {
+    border: none;
+}
+
+input[type='image'].box190 {
+    width: 151px;
+    height: 20px;
+}
+
+input[type='image'].box180 {
+    width: 151px;
+    height: 20px;
+}
+
+input[type='image'].box150 {
+    width: 110px;
+    height: 20px;
+}
+
+input[type='image'].box140 {
+    width: 110px;
+    height: 20px;
+}
+
+input[type='image'].box130 {
+    width: 110px;
+    height: 20px;
+}
+
+input[type='image'].box51 {
+    width: 73px;
+    height: 23px;
+}
+
+input[type='image'].box511 {
+    width: 66px;
+    height: 23px;
+}
+
+/* フッター
+----------------------------------------------- */
+#pagetop {
+    width: 910px;
+    font-size: 90%;
+    text-align: right;
+    margin: -18px 24px 0 0;
+    float: right;
+}
+
+#footer {   
+    clear: both;
+    height: 110px;
+}
+
+#footerbg {
+    width: 900px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 8px;
+    font-size: 90%;
+    color: #b3b1b1;
+    text-align: center;
+    background: url("../img/common/footerbg.gif") center no-repeat;
+}
+
+div#footer ul{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.copyright {
+    font-size: 9px;
+    color: #c70000;
+}
+
+div#footer ul li {
+    display: inline;
+}
+
+div#footer a.footerlink:link {
+    color: #424343;
+    text-decoration: none;
+}
+
+div#footer a.footerlink:hover {
+    color: #4f1d06;
+    text-decoration: none;
+}
+
+
+/* タイトル
+----------------------------------------------- */
+
+div#title {
+    clear: both;
+    width: 100%;
+    background: url("../img/common/titlebg.gif") repeat-x;
+    float: left;
+    margin-bottom: 10px;
+}
+
+div#title .left {
+    display: block
+    position: relative;
+    float: left;
+}
+
+div#title .right {
+    display: block
+    position: relative;
+    float: right;
+}
+
+div#title2 {
+    clear: both;
+    width: 100%;
+    background: url("../img/common/titlebg2.gif") repeat-x;
+    float: left;
+}
+
+div#title2 .left {
+    display: block
+    position: relative;
+    float: left;
+}
+
+div#title2 .right {
+    display: block
+    position: relative;
+    float: right;
+}
+
+div#title .detailtitle {
+    margin-top: 9px;
+    float: left;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+div#subtitle {
+    width: 100%;
+    max-width: 700px;
+    background: url("../img/common/subtitlebg.gif") repeat-x;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+div#subtitle .left {
+    display: block
+    position: relative;
+    float: left;
+}
+
+div#subtitle .right {
+    display: block
+    position: relative;
+    float: right;
+}
+
+div#productsubtitle {
+    width: 100%;
+    max-width: 700px;
+    background: url("../img/products/productsubtitlebg.gif") repeat-x;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+div#productsubtitle .left {
+    display: block
+    position: relative;
+    float: left;
+}
+
+div#productsubtitle .right {
+    display: block
+    position: relative;
+    float: right;
+}
+
+div#productsubtitle .subareatitle {
+    margin-top: 7px; 
+    float: left;
+    font-weight: 100;
+}
+
+div#bgbottom2 {
+    width: 100%;
+    max-width: 880px;
+    background: url("../img/common/bottombg.gif") repeat-x;
+    float: left;
+}
+
+div#bgbottom2 .left {
+    display: block
+    position: relative;
+    float: left;
+    margin-left: -2px;
+}
+
+div#bgbottom2 .right {
+    display: block
+    position: relative;
+    margin-right: -1px;
+    float: right;
+}
