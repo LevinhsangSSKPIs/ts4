@@ -1,0 +1,344 @@
+﻿@charset "utf-8";
+
+
+/* FLASH
+----------------------------------------------- */
+div#flasharea {
+    position: absolute;
+    z-index: 2;
+    width: 854px;
+    height: 237px;
+    margin: 59px 0 0px 63px;
+}
+
+div#flashareabg {
+    width: 1024px;
+    height: 307px;
+    margin: -15px 0 0 -280px;
+    background: url("../img/main/flashbg.gif") no-repeat;
+}
+
+/* ニュース
+----------------------------------------------- */
+div#newsarea {
+    max-width: 387px;
+    height: 100%;
+    margin: 4px auto;
+    background-color: #f3f1f1;
+    padding-bottom: 10px;
+    background: url("../img/top/newsosusumebg.gif") repeat-y;
+}
+
+div#two_maincolumn div#newsarea {
+    width: 100%;
+    max-width: 640px;
+    background-color: #f3f1f1;
+    background: url("../img/top/newsosusumebg2.gif") repeat-y;
+    margin: 5px;
+}
+
+div#two_maincolumn div#newsarea .newscontents {
+    width: 100%;
+    max-width: 640px;
+    margin: 5px;
+}
+
+div#leftcolumn div#newsarea {
+    max-width: 222px;
+    height: 100%;
+    margin-left: 15px;
+}
+
+div#rightcolumn div#newsarea {
+    max-width: 222px;
+    height: 100%;
+    margin-left: 15px;
+}
+
+div#leftcolumn div#newsarea .newscontents {
+    max-width: 210px;
+    height: 100%;
+    margin-top: 5px;
+}
+
+div#rightcolumn div#newsarea .newscontents {
+    max-width: 200px;
+    height: 100%px;
+    margin-top: 5px;
+}
+
+div#newsareaborder div#newsarea {
+
+}
+
+div#newsarea .newscontents {
+    position: relative; 
+    margin-top: 10px; 
+    margin-left: 10px;
+    height: 100%;
+    width: 370px;
+}
+
+div#newstitle {
+    width: 100%;
+    max-width: 440px;
+    height: 38px;
+    background: url("../img/top/newsbg.gif") repeat-x;
+    position: relative;
+　　float: left;
+}
+
+div#two_maincolumn div#newstitle {
+    max-width: 640px;
+}
+
+div#newstitle .left {
+    display: block
+    position: relative;
+    float: left;
+}
+
+div#newstitle .right {
+    display: block
+    position: relative;
+    float: right;
+}
+
+div#newsarea dl {
+    padding: 0;
+    color: #505e65;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+div#newsarea dd {
+    padding: 5px 5px 5px 5px;
+    color: #505e65;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+div#newsarea dd a{
+    color: #2d3837;
+}
+
+div#newsarea dd a:hover{
+    color: #818181;
+}
+
+div#newsarea dl.end {
+    padding: 10px 0;
+    background: url("") no-repeat bottom;
+}
+
+div#newsarea dl dt {
+    padding: 0 0 0 20px;
+}
+
+div#rss {
+    width: 100%;
+    text-align: right;
+    float: right;
+    padding-right: 15px;
+}
+
+.date {
+    color: #64340c;
+    margin-bottom: 10px;
+}
+
+.newslink {
+    margin-bottom: 10px;
+}
+
+/* おすすめ
+----------------------------------------------- */
+div#recomendarea {
+    width: 100%;
+    height: 100%;
+    max-width: 387px;
+    margin: 0 auto 0 6px;
+    background-color: #649902;
+    float: left;
+    background: url("../img/top/newsosusumebg.gif") repeat-y;
+    
+}
+
+div#recomendarea h2 {
+    padding-left: 5px;
+}
+
+div#rightcolumn div#recomendarea {
+    width: 238px;
+    height: 100%;
+    margin: 6px;
+}
+
+div#leftcolumn div#recomendarea {
+    width: 238px;
+    height: 450px;
+    margin: 6px;
+}
+
+div#two_maincolumn div#recomendarea {
+    max-width: 640px;
+    background: url("../img/top/newsosusumebg2.gif") repeat-y;
+}
+
+div#two_maincolumn div#osusumetitle {
+    max-width: 640px;
+    margin-top: -25px;
+}
+
+div#three_maincolumn div#osusumetitle {
+    max-width: 387px;
+    margin: -25px 0 0 6px;
+}
+
+div#osusumetitle {
+    top: 20px;
+    width: 100%;
+    max-width: 387px;
+    margin-left: 5px;
+    height: 38px;
+    background: url("../img/top/osusumebg.gif") repeat-x;
+    position: relative;
+　　float: left;
+}
+
+div#osusumetitle .osusumeleft {
+    display: block
+    position: relative;
+    float: left;
+}
+
+div#osusumetitle .osusumeright {
+    display: block
+    position: relative;
+    float: right;
+}
+
+div#recommendborder div#recomendarea{
+
+}
+
+div#recomendblock {
+    clear: both;
+    width: 400px;
+    padding: 10px 0;
+    margin: 10px;
+    overflow: auto;
+}
+
+div#leftcolumn div#recomendblock {
+    padding-top: 10px;
+    height: 600px;
+    display: block;
+}
+
+div#rightcolumn div#recomendblock {
+    padding-top: 10px;
+    height: 600px;
+    display: block;
+}
+
+div#two_maincolumn div.recomendleft {
+    width: 610px;
+}
+
+div.recomendleft {
+    float: left;
+    width: 364px;
+    margin: 0 5px 10px 10px;
+    padding-left: 5px;
+    display: inline-block;
+    background-color: #649902;
+}
+
+div.recomendleft .btnbox {
+    margin: 4px;
+    padding: 1px;
+    float: right;
+    position: relative;
+}
+
+div#two_maincolumn div.recomendleft .btnbox {
+    margin-top: 120px;
+}
+
+div#leftcolumn div.recomendleft {
+    width: 215px;
+}
+
+div#rightcolumn div.recomendleft {
+    width: 215px
+}
+
+div.recomendleft p {
+    margin: 0 0 5px 0;
+    color: #ffffff;
+}
+
+div.osusumecontents {
+    float: left;
+    width: 220px;
+}
+
+div.osusumecontents h3 {
+    margin: 5px 0 5px 0;
+}
+
+a.detaillink:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.detaillink:hover {
+    color: #b7ec57;
+    text-decoration: none;
+}
+
+div.recomendleft img {
+    float: left;
+    margin: 5px 5px 5px 0;
+}
+
+div#pickup {
+    width: 100%;
+    text-align: right;
+    float: right;
+    padding-right: 15px;
+}
+
+/* 
+----------------------------------------------- */
+div#bgbottom {
+    width: 100%;
+    max-width: 700px;
+    background: url("../img/top/bottombg.gif") repeat-x;
+    float: left;
+    margin-left: 5px;
+}
+
+div#bgbottom .left {
+    display: block
+    position: relative;
+    float: left;
+}
+
+div#bgbottom .right {
+    display: block
+    position: relative;
+    float: right;
+}
+
+div#three_maincolumn div#bgbottom {
+    max-width: 387px;
+    margin: 0 0 0 6px;
+}
+
+div#leftcolumn div#bgbottom {
+    margin: -10px 0 0 6px;
+}
+
+div#rightcolumn div#bgbottom {
+    margin: -10px 0 0 6px;
+}

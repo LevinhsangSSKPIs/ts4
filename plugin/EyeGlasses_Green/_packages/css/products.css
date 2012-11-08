@@ -1,0 +1,552 @@
+﻿@charset "utf-8";
+
+
+/* ????
+----------------------------------------------- */
+p.conditionarea {
+    clear: both;
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    border: solid 1px #333;
+}
+
+
+
+/* ?????
+----------------------------------------------- */
+.pagenumberarea, .pagecondarea {
+    clear: both;
+    width: 580px;
+    margin: 20px 0 0 4px;
+    padding: 10px;
+    background-color: #f3f1f1;
+}
+
+ul.pagenumberarea {
+    height: 2.5ex;
+}
+
+ul.pagecondarea {
+    border: 1px solid #CCCCCC;
+}
+
+ul.pagenumberarea li {
+    float: left;
+    width: 32.9%;
+}
+
+ul.pagenumberarea li.left {
+    text-align: left;
+    white-space: nowrap;
+}
+
+ul.pagenumberarea li.center {
+    text-align: center;
+    white-space: pre;
+}
+
+ul.pagenumberarea li.right {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.pagenumberarea .pagenumber{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+p.pagenumberarea .number{
+    font-weight: bold;
+}
+
+/* ???? */
+
+/* ????
+----------------------------------------------- */
+div#listtitle {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url("../img/common/titlebg.gif") repeat-x;
+}
+
+div#listtitle h2 {
+    padding: 0 0 10px 10px;
+    font-size: 15px;
+    font-color: #ffffff;
+
+}
+
+
+/* ??
+----------------------------------------------- */
+div#categorylist {
+   width: 610px;
+   padding-left: 10px;
+}
+
+div#listarea {
+    width: 550px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: block;
+}
+
+div#bg {
+    clear: both;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f1f1;
+}
+
+div#bg p {
+    padding: 5px;
+}
+
+div#leftcolumnlist {
+    float: left;
+    width:  580px;
+    height: 100%;
+    margin: 0 0 10px; 0;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: #649902;
+}
+
+
+div.listarea .status_icon {
+    width: 350px;
+    display: inline;
+    float: left;
+}
+
+div#statusicondiv {
+    width: 250px;
+    float: left;
+    display; inline;
+}
+
+div.listphoto {
+    float: left;
+    margin: 5px;
+    height: 130px;
+}
+
+div.listblock {
+    float: left;
+    width:  600px;
+    height: 100%;
+    margin: 0 0 10px 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+div.listblock li {
+    display: inline;
+    padding: 0 0 10px 0;
+}
+
+div.listblock h3 {
+    width: 300px;
+    margin-left: 220px;
+    font-size: 100%;
+    padding: 5px 5px;
+}
+
+div.listblock h3 a {
+    color: #909d76;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+div.listblock .listcomment {
+    margin: -35px 0 10px -45px;
+    width: 380px;
+    color: #ffffff;
+}
+
+div.listblock .comments {
+    position: relative;
+    width: 400px;
+}
+
+div.listblock .listbuttons {
+    width: 210px;
+    position: relative;
+    float: left;
+    margin-top: -10px;
+    margin-left: 380px;
+}
+
+div.listblock .pricebox {
+    color: #ffffff;
+    float: left;
+    margin-left: -46px;
+}
+
+div.listblock .price2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.listblock .soldout {
+    clear: both;
+}
+
+div.listblock .in_cart {
+    margin: 20px auto 5px 0px;
+    padding: 10px;
+    width: 180px;
+}
+
+div.listblock .attention {
+}
+
+div.listblock .quantity {
+    width: 150px;
+}
+
+div.pricediv {
+    float: right;
+    position: relative;
+}
+
+div.listblock .btnbox {
+    margin-top: 4px;
+    padding: 1px;
+    float: left;
+    position: relative;
+}
+
+div.listblock dt {
+    color: #ffffff;
+    padding: 3px;
+    margin-left: -12px;
+}
+
+div.listblock .cartinfo {
+    position: relative;
+    width: 250px;
+    float: left;
+    margin-top: -120px;
+    margin-left: 205px;
+    margin-bottom: 20px;
+}
+
+div.listblock dd {
+    padding: 3px;
+    margin-left: -43px;
+}
+
+div.listblock .cartbtn {
+    float: left;
+    position: relative;
+}
+
+div.listblock .cartbtn img {
+    display: block;
+    width: 90px;
+    margin: 5px auto 0 auto;
+}
+
+div.listblock .box54 {
+    width: 54px;
+    border: solid 1px #334d02;
+    background-color: #d8fc95;
+    color: #334d02;
+}
+
+/* ???? */
+
+/* ????
+----------------------------------------------- */
+div#detailtitle {
+    clear: both;
+    float: left;
+    margin-top: -7px;
+    padding-left: 40px;
+    color: #8e9ec2;
+    font-weight: 900;
+    position: absolute;
+    z-index: 1;
+}
+
+div#detailtitle h2 {
+    padding: 0 0 10px 10px;
+    font-size: 15px;
+    font-color: #ffffff;
+}
+
+
+/* ??
+----------------------------------------------- */
+div#detailarea {
+    width: 590px;
+    margin: 15px 0 0 10px;
+    display: inline-block;
+    background-color: #649902;
+    color: #ffffff;
+}
+
+div#producttitle {
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    margin: 50px 0 0 280px;
+    float: left;
+    color: #909d76;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div#detailphotoblock {
+    float: left;
+    width: 292px;
+    margin: 5px;
+}
+
+div#detailphotoblock p {
+    margin: 5px 0 0 0;
+}
+
+div#detailleftblock {
+    width: 280px;
+    float: left;
+    margin-left: 10px;
+}
+
+div#detailcomments {
+    padding: 20px 10px 0 0;
+    float: right;
+    width: 280px;
+    color: #f8ae45;
+}
+
+div#statusicon {
+   margin-left: 10px;
+   width: 250px;
+}
+
+div#statusicon ul {
+    width: 250px;
+    display: inline;
+}
+
+div#statusicon li {
+    display: inline;
+}
+
+div#detailleftblock h2 {
+    margin: 5px 0;
+    padding: 0;
+    color: #ff6600;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div#detailleftblock dl {
+    padding: 15px 0 0 0;
+}
+
+div#detailleftblock dt {
+    padding: 0 0 0 15px;
+    color: #ffffff;
+    background: url("../img/common/arrow_gray.gif") no-repeat left center;
+}
+
+div#detailleftblock dd {
+    margin: 0 15px 0 0;
+}
+
+div#detailleftblock .box54 {
+    width: 60px;
+    border: solid 1px #334d02;
+    background-color: #d8fc95;
+    color: #334d02;
+}
+
+div#detailleftblock .btn {
+    clear: both;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* ??????
+----------------------------------------------- */
+div.subarea {
+    clear: both;
+    width: 590px;
+    padding: 30px 0 0 0;
+    margin-left: 10px;
+}
+
+span.subareatitle {
+   color: #ffffff;
+}
+
+div.subtext {
+    float: right;
+    width: 365px;
+    font-weight: 100;
+}
+
+div.subphotoimg {
+    float: left;
+    width: 202px;
+}
+
+div.subphotoimg p {
+    margin: 5px 0 0 0;
+    text-align:right;
+}
+
+
+/* ?????
+----------------------------------------------- */
+div#customervoicearea {
+    clear: both;
+    width: 590px;
+    margin-left: 10px;
+    padding: 35px 0 0 0;
+}
+
+
+div#customervoicearea div.customerarealink {
+    float: right;
+    margin-right: 10px;
+}
+
+div#customervoicearea .voicedate{
+    margin: 10px 0 0 10px;
+    font-weight: 100;
+    color: #649902;
+}
+
+div#customervoicearea .voicetitle{
+    margin: 10px 0 0 10px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #4a453e;
+}
+
+div#customervoicearea .voicecomment{
+    margin: 10px 0 0 10px;
+    font-weight: 100;
+    color: #4a453e;
+}
+
+div#customervoicearea li {
+    padding: 0 0 10px 0;
+}
+
+/* ???????
+----------------------------------------------- */
+div#trackbackarea {
+    clear: both;
+    width: 590px;
+    margin-left: 10px;
+    padding: 35px 0 0 0;
+}
+
+div#trackbackarea h3 {
+    font-size: 12px;
+    color: #649902;
+    padding: 0 0 10px 5px;
+}
+
+div#trackbackarea .box500 {
+    width: 500px;
+    color: #484747;
+    margin: 0 0 0 5px;
+    border: solid 1px #b3ab9e;
+    background-color: #ffffff;
+}
+
+/* ??????????????????????
+----------------------------------------------- */
+div#whoboughtarea {
+    clear: both;
+    width: 590px;
+    margin-left: 10px;
+    padding: 35px 0 0 0;
+}
+
+div.whoboughtblock {
+    clear: both;
+    width: 580px;
+    padding: 10px 0;
+    overflow: auto;
+}
+
+div.whoboughtleft {
+    float: left;
+    width: 280px;
+    padding: 5px 0 0 5px;
+    position: relative;
+    background-color: #649902;
+}
+
+div.whoboughtleft a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div.whoboughtleft a:hover {
+    color: #b7ec57;
+    text-decoration: none;
+}
+
+div.whoboughtleft img {
+    display: block;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+div.whoboughtleft p {
+    color: #ffffff;
+    margin: 0 0 5px 0;
+}
+
+div.whoboughtright {
+    float: right;
+    width: 280px;
+    padding: 5px 0 0 5px;
+    position: relative;
+    background-color: #649902;
+}
+
+div.whoboughtright a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div.whoboughtright a:hover {
+    color: #b7ec57;
+    text-decoration: none;
+}
+
+div.whoboughtright img {
+    display: block;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+div.whoboughtright p {
+    color: #ffffff;
+    margin: 0 0 5px 0;
+}
+
+div.whoboughtleft h3 {
+    font-size: 100%;
+}
+
+div.whoboughtright h3 {
+    font-size: 100%;
+}
