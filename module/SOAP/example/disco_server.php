@@ -34,7 +34,7 @@
   http://localhost/disco_server.php (POST for normal soap requests)
 */
 
-//error_reporting(E_ALL);
+error_reporting(E_ALL);
 require_once 'SOAP/Server.php';
 
 class MP3DB_Class {

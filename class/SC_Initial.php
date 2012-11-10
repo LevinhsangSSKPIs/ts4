@@ -104,10 +104,10 @@ class SC_Initial {
      * @return void
      */
     function setErrorReporting() {
-    #    error_reporting(E_ALL & ~E_NOTICE);
+        error_reporting(E_ALL & ~E_NOTICE);
         // PHP 5.3.0対応
         if (error_reporting() > 6143) {
-    #        error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
+            error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
         }
     }
 

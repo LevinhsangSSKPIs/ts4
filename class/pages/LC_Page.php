@@ -164,7 +164,6 @@ class LC_Page {
                 GC_Utils_Ex::gfPrintLog($logMsg);
             }
         }
-	session_write_close();
 
     }
 
